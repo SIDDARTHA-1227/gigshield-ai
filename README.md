@@ -111,6 +111,8 @@ Premiums may also be dynamically adjusted using AI risk models based on environm
 
 ## 7. System Workflow
 
+![System Workflow](docs/workflow.png)
+
 GigShield AI follows a fully automated workflow to ensure fast and transparent income protection for delivery partners.
 
 1. **Worker Registration**
@@ -141,6 +143,8 @@ GigShield AI follows a fully automated workflow to ensure fast and transparent i
 ---
 
 ## 8. AI / ML Integration
+
+![AI/ML Pipeline](docs/ai_pipeline.png)
 
 GigShield AI integrates AI/ML across pricing, fraud detection, and predictive insights.
 
@@ -206,6 +210,9 @@ GigShield AI is built using a modern and scalable technology stack.
 ---
 
 ## 10. System Architecture
+
+![System Architecture](docs/architecture.png)
+
 
 GigShield AI follows a modular architecture that integrates user applications, backend services, AI models, and external data sources.
 
