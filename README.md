@@ -22,7 +22,7 @@ Traditional insurance does not cover short-term wage loss from these uncontrolla
 **Occupation:** Swiggy Delivery Partner  
 **City:** Guntur 
 
-Raj works around **8 hours per day** delivering food orders. On average he earns about **₹500–₹700 daily**, depending on demand and delivery volume.
+Kumar works around **8 hours per day** delivering food orders. On average he earns about **₹500–₹700 daily**, depending on demand and delivery volume.
 
 During disruptions such as **heavy rainfall, extreme heat, severe pollution, or sudden zone shutdowns**, the number of delivery orders drops significantly. Sometimes delivery platforms temporarily stop operations in certain areas due to safety reasons.
 
