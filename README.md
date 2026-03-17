@@ -35,15 +35,15 @@ GigShield AI helps workers like kumar by providing **weekly income protection**.
 
 ## 3. Our Solution
 
-GigShield AI is an AI-powered parametric insurance platform designed to protect food delivery partners from income loss caused by environmental disruptions.
+GigShield AI is an AI-powered parametric income protection platform designed to safeguard food delivery partners from income loss caused by external disruptions such as extreme weather, pollution, and zone shutdowns.
 
-Instead of requiring manual claim submissions, the platform automatically monitors external conditions such as weather, pollution levels, and government alerts using real-time APIs.
+Unlike traditional insurance systems that require manual claim submissions, GigShield AI uses parametric triggers based on objective environmental data. The platform continuously monitors external data sources such as weather APIs, air-quality data, and government alerts to detect disruption events in real time.
 
-Delivery partners select a **weekly income protection plan** and define their usual working shifts (for example lunch and dinner shifts). The system continuously monitors environmental conditions in the worker’s operating zone.
+Delivery partners subscribe to a simple weekly protection plan and define their usual working shifts (for example lunch and dinner shifts). The system tracks environmental conditions in the worker’s operating zone during those scheduled shifts.
 
-If a disruption such as **heavy rain, extreme heat, severe pollution, or a zone shutdown** occurs during the worker’s scheduled shift, the platform automatically triggers a compensation payout.
+When predefined disruption thresholds are detected such as heavy rainfall, extreme heat, hazardous pollution levels, or zone closures the system automatically initiates a claim and calculates the income loss based on the worker’s protected hours and average earnings.
 
-This ensures that workers receive **fast and fair income protection without complicated claim processes**, helping them maintain financial stability during unexpected disruptions.
+This automated parametric workflow ensures fast, transparent, and fair payouts without requiring workers to file claims manually, helping gig workers maintain financial stability during unexpected disruptions.
 
 ---
 
