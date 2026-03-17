@@ -35,13 +35,13 @@ GigShield AI helps workers like kumar by providing **weekly income protection**.
 
 ## 3. Our Solution
 
-GigShield AI is an AI-powered parametric income protection platform designed to safeguard food delivery partners from income loss caused by external disruptions such as extreme weather, pollution, and zone shutdowns.
+**GigShield AI is an AI-powered parametric income protection platform** designed to safeguard food delivery partners from income loss caused by external disruptions such as extreme weather, pollution, and zone shutdowns.
 
-Unlike traditional insurance systems that require manual claim submissions, GigShield AI uses parametric triggers based on objective environmental data. The platform continuously monitors external data sources such as weather APIs, air-quality data, and government alerts to detect disruption events in real time.
+Unlike traditional insurance systems that require manual claim submissions, GigShield AI uses **parametric triggers based on objective environmental data**. The platform continuously monitors external data sources such as weather APIs, air-quality data, and government alerts to **detect disruption events in real time**.
 
-Delivery partners subscribe to a simple weekly protection plan and define their usual working shifts (for example lunch and dinner shifts). The system tracks environmental conditions in the worker’s operating zone during those scheduled shifts.
+Delivery partners subscribe to a **simple weekly protection plan** and define their **usual working shifts** (for example lunch and dinner shifts). The system tracks environmental conditions in the worker’s operating zone during those scheduled shifts.
 
-When predefined disruption thresholds are detected such as heavy rainfall, extreme heat, hazardous pollution levels, or zone closures the system automatically initiates a claim and calculates the income loss based on the worker’s protected hours and average earnings.
+When **predefined disruption thresholds** are detected such as heavy rainfall, extreme heat, hazardous pollution levels, or zone closures the system **automatically initiates a claim** and calculates the **income loss based on the worker’s protected hours and average earnings**.
 
 This automated parametric workflow ensures fast, transparent, and fair payouts without requiring workers to file claims manually, helping gig workers maintain financial stability during unexpected disruptions.
 
