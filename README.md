@@ -101,9 +101,13 @@ The payout is calculated based on the worker’s **average hourly earnings**.
 
 Example:
 
-If a worker earns **₹120 per hour** and a disruption affects **3 hours of scheduled work**, the payout will be:
+If a worker earns ₹120 per hour and a disruption affects 3 hours of scheduled work:
 
-Payout = ₹120 × 3 = ₹360
+Calculated Payout = ₹120 × 3 = ₹360
+
+If the worker is on the Basic Plan (Maximum Weekly Payout: ₹300):
+
+Final Payout = ₹300 (capped by plan limit)
 
 Premiums may also be dynamically adjusted using AI risk models based on environmental conditions and historical disruption data in specific zones.
 
