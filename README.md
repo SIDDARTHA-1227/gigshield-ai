@@ -183,6 +183,68 @@ Goal: warn workers about likely disruptions in upcoming shifts.
 **Example:**
 If the model predicts high probability of heavy rain during dinner shift tomorrow, the app notifies the worker to plan accordingly.
 
+
+---
+
+## 8.1 ML Models Used in GigShield AI
+
+GigShield AI uses a combination of machine learning models to support dynamic pricing, fraud detection, and predictive alerts.
+
+### 1. Random Forest Model — Risk Pricing
+We use a **Random Forest model** to estimate the disruption risk level of a delivery zone based on factors such as:
+- historical rainfall frequency
+- temperature patterns
+- AQI history
+- seasonal trends
+- claim frequency in the zone
+
+**Why this model?**  
+Random Forest handles non-linear relationships well and works effectively with mixed environmental and operational features. It is also robust and easy to interpret for risk classification.
+
+**Purpose in our system:**  
+- classify zones into low, medium, or high risk
+- support dynamic weekly premium calculation
+
+---
+
+### 2. Isolation Forest — Fraud Detection
+We use **Isolation Forest** for anomaly detection in claims.
+
+**Input signals include:**
+- worker location consistency
+- shift activity validation
+- repeated claims in short time periods
+- duplicate event claims
+- unusual claim frequency compared to similar workers
+
+**Why this model?**  
+Isolation Forest is well-suited for detecting rare and unusual behavior patterns, which makes it effective for identifying potentially fraudulent claims.
+
+**Purpose in our system:**  
+- generate a fraud risk score
+- flag suspicious claims for review
+- reduce false or manipulated payouts
+
+---
+
+### 3. Logistic Regression — Predictive Risk Alerts
+We use **Logistic Regression** to predict the probability of a disruption occurring during an upcoming worker shift.
+
+**Input features include:**
+- weather forecast
+- AQI forecast
+- zone history
+- time of day
+- seasonal conditions
+
+**Why this model?**  
+Logistic Regression is simple, fast, and explainable, making it suitable for early-stage risk prediction in a hackathon prototype.
+
+**Purpose in our system:**  
+- predict high-risk delivery shifts
+- notify workers in advance about likely disruption events
+- improve worker planning and preparedness
+
 ---
 
 ## 9. Technology Stack
