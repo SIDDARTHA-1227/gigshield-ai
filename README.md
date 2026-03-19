@@ -69,6 +69,10 @@ Most parametric insurance prototypes pay everyone in a city/zone when it rains. 
    - Location consistency checks (anti GPS-spoof logic).
    - Duplicate claim prevention for the same event window.
 
+6. **Digital Infrastructure Risk Coverage (Platform Outage Protection)**
+   - GigShield AI extends parametric insurance beyond environmental risks to include platform-level disruptions.
+   - If the delivery platform experiences app crashes, server downtime, or order assignment failures, workers are unable to earn despite being active.
+   - The system detects such conditions using order assignment data and worker activity logs and triggers compensation automatically.
 
 ---
 
