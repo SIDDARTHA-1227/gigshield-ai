@@ -138,7 +138,7 @@ GigShield AI follows a fully automated workflow to ensure fast and transparent i
    - Worker defines usual delivery shifts (e.g., lunch shift 12–3 PM, dinner shift 7–10 PM).
 
 4. **Continuous Environmental Monitoring**
-   - The system continuously monitors weather, pollution, and government alerts using external APIs.
+   - The system continuously monitors weather, pollution, government alerts and platform activity using external APIs.
 
 5. **Trigger Detection**
    - If a disruption condition (rain, extreme heat, pollution, curfew) occurs in the worker’s zone during their scheduled shift, the trigger activates.
