@@ -83,6 +83,7 @@ GigShield AI uses parametric triggers to automatically detect environmental disr
 | Severe Pollution | AQI > 300 | Outdoor work becomes risky |
 | Zone Shutdown / Curfew | Government alert or platform zone closure | Deliveries temporarily halted |
 |Platform Outage / App Failure | Worker online but receives 0 orders for > 60 minutes due to system failure | Worker cannot receive orders and loses active earning time |
+
 The platform continuously monitors environmental APIs and platform activity data. If a disruption occurs in a worker’s delivery zone during their scheduled working shift, the system automatically detects the event and initiates compensation.
 
 In addition to environmental disruptions, GigShield AI also accounts for **digital infrastructure failures such as platform outages**. If a delivery partner is online and active but does not receive any orders for a sustained period due to **backend** or **server issues**, the system treats it as a valid disruption event.
