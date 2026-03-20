@@ -342,7 +342,8 @@ The development of GigShield AI will be completed in three phases aligned with t
 - Develop analytics dashboard for workers and administrators
 - Improve AI prediction models for disruption forecasting
 - Prepare final demo and pitch presentation
-- 
+
+---
 
 ### 12. Adversarial Defense & Anti-Spoofing Strategy
 
@@ -357,15 +358,15 @@ GigShield AI differentiates real workers from fraudulent users using a combinati
 A claim is considered valid only if:
 
 Disruption Detected
-+ Worker Active During Shift
-+ Verified Drop in Delivery Activity
+- Worker Active During Shift
+- Verified Drop in Delivery Activity
 → Compensation Triggered
 
 A claim is considered suspicious if:
 
 Disruption Detected
-+ No Delivery Activity
-+ No Reduction in Orders
+- No Delivery Activity
+- No Reduction in Orders
 → Claim Flagged
 
 This ensures that users who are merely “online” without actual work engagement are not eligible for payouts.
@@ -376,35 +377,35 @@ To detect fraud and coordinated spoofing attacks, GigShield AI analyzes multiple
 
 **Worker Activity Signals**
 
-+ App online status during shift
+- App online status during shift
 
-+ Order acceptance / rejection behavior*
+- Order acceptance / rejection behavior*
 
-+ Active session duration
+- Active session duration
 
 **Delivery Performance Signals**
 
-*Orders received per hour
+- Orders received per hour
 
-*Deliveries completed per hour
+- Deliveries completed per hour
 
-*Drop in delivery volume compared to historical average
+- Drop in delivery volume compared to historical average
 
 **Movement & Device Signals**
 
-*Continuous location tracking (no sudden jumps)
+- Continuous location tracking (no sudden jumps)
 
-*Realistic movement speed
+- Realistic movement speed
 
-*Route consistency during shift
+- Route consistency during shift
 
 **Zone-Level Signals**
 
-*Total orders in the zone
+- Total orders in the zone
 
-*Number of active delivery partners
+- Number of active delivery partners
 
-*Sudden spike in claims without corresponding drop in orders
+- Sudden spike in claims without corresponding drop in orders
 
 ### 3. Delivery Impact Validation Logic
 
@@ -432,11 +433,11 @@ Score ≤1 → Rejected**
 
 GigShield AI detects group-level fraud patterns by analyzing cluster behavior:
 
-*Multiple users claiming from same zone at same time
+- Multiple users claiming from same zone at same time
 
-*No corresponding drop in delivery demand
+- No corresponding drop in delivery demand
 
-*Similar activity patterns across users
+- Similar activity patterns across users
 
 **Cluster anomaly detected → Claims temporarily held for verificatio**
 
@@ -446,11 +447,11 @@ This prevents mass payout exploitation through coordinated spoofing attacks.
 
 To ensure fairness and avoid penalizing honest workers:
 
-Claims are not **immediately rejected**
+- Claims are not **immediately rejected**
 
-Medium-risk claims are **processed with partial payout**
+- Medium-risk claims are **processed with partial payout**
 
-Final verification is performed asynchronously
+- Final verification is performed asynchronously
 
 Example:
 
@@ -470,21 +471,21 @@ GigShield AI ensures that all claims are evaluated in real-time before any payou
 
 Each claim is assigned a real-time risk score based on:
 
-*worker activity
+- worker activity
 
-*delivery impact
+- delivery impact
 
-*movement consistency
+- movement consistency
 
-*zone-level behavior
+- zone-level behavior
 
 Decision logic:
 
-*Low Risk → Instant payout
+- Low Risk → Instant payout
 
-*Medium Risk → Partial payout with verification
+- Medium Risk → Partial payout with verification
 
-*High Risk → Claim blocked
+- High Risk → Claim blocked
 
 This pre-payout validation layer prevents fraudulent claims from being processed, ensuring that the system is resilient against large-scale coordinated spoofing attacks.
 
@@ -494,11 +495,11 @@ GigShield AI enhances fraud detection using anomaly detection models such as Iso
 
 These models analyze:
 
-abnormal claim frequency
+- abnormal claim frequency
 
-deviation in delivery patterns
+- deviation in delivery patterns
 
-unusual worker behavior compared to historical data
+- unusual worker behavior compared to historical data
 
 **Significant deviation from normal patterns → flagged as anomaly**
 
