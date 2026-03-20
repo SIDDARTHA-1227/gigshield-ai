@@ -356,14 +356,12 @@ Rather than trusting GPS alone, the platform ensures that compensation is trigge
 GigShield AI differentiates real workers from fraudulent users using a combination of **activity validation, delivery impact analysis, and movement consistency.**
 
 A claim is considered valid only if:
-
 Disruption Detected
 - Worker Active During Shift
 - Verified Drop in Delivery Activity
 → Compensation Triggered
 
 A claim is considered suspicious if:
-
 Disruption Detected
 - No Delivery Activity
 - No Reduction in Orders
@@ -379,7 +377,7 @@ To detect fraud and coordinated spoofing attacks, GigShield AI analyzes multiple
 
 - App online status during shift
 
-- Order acceptance / rejection behavior*
+- Order acceptance / rejection behavior
 
 - Active session duration
 
@@ -504,6 +502,3 @@ These models analyze:
 **Significant deviation from normal patterns → flagged as anomaly**
 
 This allows the system to detect sophisticated fraud attempts even when individual signals appear normal.
-
-
-  
