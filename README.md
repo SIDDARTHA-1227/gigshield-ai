@@ -376,11 +376,11 @@ To detect fraud and coordinated spoofing attacks, GigShield AI analyzes multiple
 
 **Worker Activity Signals**
 
-*App online status during shift
++ App online status during shift
 
-*Order acceptance / rejection behavior*
++ Order acceptance / rejection behavior*
 
-*Active session duration
++ Active session duration
 
 **Delivery Performance Signals**
 
