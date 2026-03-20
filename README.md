@@ -347,9 +347,9 @@ The development of GigShield AI will be completed in three phases aligned with t
 
 ### 12. Adversarial Defense & Anti-Spoofing Strategy
 
-GigShield AI addresses large-scale GPS spoofing attacks by introducing a **multi-layered verification system** that validates not just location, but actual earning activity and behavioral patterns of delivery partners.
+GigShield AI is designed to defend against large-scale GPS spoofing attacks through a robust **multi-layered verification system** that goes beyond location validation. It analyzes real earning activity, delivery impact, and behavioral patterns to distinguish genuine workers from fraudulent actors.
 
-Instead of relying solely on GPS data, the system ensures that compensation is provided only when **real income loss occurs during active working shifts.**
+Rather than trusting GPS alone, the platform ensures that compensation is triggered strictly when real income loss occurs during active working shifts.
 
 ### 1. Differentiation: Genuine Worker vs Spoofed User
 
